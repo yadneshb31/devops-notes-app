@@ -1,2 +1,4 @@
-def login(usr, pwd):
-    return f"{usr} logged in"
+def login(username, password):
+    if len(password) < 6:
+        return "Password too short"
+    return f"{username} logged in"
