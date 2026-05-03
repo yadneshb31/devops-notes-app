@@ -1,3 +1,3 @@
 print("This is a configuration file")
-DEBUG = True
+DEBUG = False
 PORT = 5000
