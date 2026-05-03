@@ -1,4 +1,4 @@
 def login(username, password):
-    if len(password) < 6:
-        return "Password too short"
-    return f"{username} logged in"
+    if username == "admin" and password == "1234":
+        return "Admin logged in"
+    return "Invalid credentials"
